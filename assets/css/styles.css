@@ -1,0 +1,16 @@
+body {
+    background: #9266CC;
+    text-align: center;
+}
+
+h1 {
+    color: #EFEFEF;
+}
+
+a {
+    color: #EFEFEF;
+}
+
+a:hover {
+    color: #000000;
+}
