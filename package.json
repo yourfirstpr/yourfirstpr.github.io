@@ -1,0 +1,23 @@
+{
+  "name": "yourfirstpr.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayWIlsonJr/yourfirstpr.github.io.git"
+  },
+  "author": "Jay Wilson Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayWIlsonJr/yourfirstpr.github.io/issues"
+  },
+  "homepage": "https://github.com/JayWIlsonJr/yourfirstpr.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1"
+  }
+}
