@@ -1,2 +1,5 @@
-Charlotte Spencer - @charlotteis
-Your First PR - @yourfirstpr
+CONTRIBUTORS
+Charlotteis - https://github.com/Charlotteis
+sturobson - https://github.com/sturobson
+YiyiZhang - https://github.com/YiyiZhang
+fredericmarx - https://github.com/fredericmarx
