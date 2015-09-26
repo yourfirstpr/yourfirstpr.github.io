@@ -64,6 +64,10 @@ a:hover {
     border-bottom: 1px solid #000;
 }
 
+ul {
+    padding: 0 0 0 20px;
+}
+
 li {
     padding: 4px 0;
 }
@@ -96,5 +100,9 @@ footer p {
         margin: 0 auto;
         max-width: 1000px;
         box-sizing: border-box;
+    }
+
+    ul {
+        padding: 0 0 0 40px;
     }
 }
