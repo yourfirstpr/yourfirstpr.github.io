@@ -95,6 +95,12 @@ footer p {
     box-sizing: border-box;
 }
 
+/* Pagination - Needs some styling love */
+
+.pagination {
+  float: right;
+}
+
 @media (min-width: 600px) {
     #main {
         margin: 0 auto;
