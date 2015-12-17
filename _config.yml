@@ -2,3 +2,6 @@
 title: Your First Pull Request - Showcasing good starter issues
 baseurl: ""
 url: "http://yourfirstpr.github.io/"
+
+paginate: 3
+paginate_path: "/blog/page:num/"

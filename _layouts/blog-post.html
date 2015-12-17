@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% include head.html %}
+<html>
+<body>
+  {% include header.html %}
+    <div>
+      <section class="post">
+        <article>
+          <div class="post-meta">
+            <h2>{{ page.title }}</h2>
+            <h4>By: {{ page.author }}</h4>
+            <h4>{{ page.date | date: "%B %e, %Y" }}</h4>
+          </div>
+
+          {{ content }}
+
+          <a href="/blog">Back to All Articles</a>
+        </article>
+      </section>
+    </div>
+    {% include footer.html %}

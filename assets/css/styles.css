@@ -48,7 +48,7 @@ header li:last-of-type {
 
 /* End Header Block Styling */
 
-#main {
+.main {
     padding: 20px 15px;
     font-size: 1.15em;
 }
@@ -95,8 +95,59 @@ footer p {
     box-sizing: border-box;
 }
 
+/* Post List */
+
+.post-list {
+  width: 50em;
+  margin: auto;
+  padding-bottom: 3em;
+}
+
+/* Posts */
+
+.post-meta {
+  text-align: center;
+  border-bottom: 1px dotted #9255CC;
+}
+
+.post-meta h4 {
+  padding:
+}
+
+
+article h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #9255CC;
+}
+
+article p {
+  font-size: 1.35em;
+  line-height: 1.4;
+}
+
+article {
+  width: 50em;
+  margin: auto;
+}
+
+.post article {
+  padding: 1em;
+}
+
+.post h1 {
+  text-align: left;
+  color: black;
+}
+
+/* Pagination - Needs some styling love */
+
+.pagination {
+  float: right;
+}
+
 @media (min-width: 600px) {
-    #main {
+    .main {
         margin: 0 auto;
         max-width: 1000px;
         box-sizing: border-box;
