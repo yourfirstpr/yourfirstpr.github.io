@@ -3,19 +3,19 @@
 <html>
 <body>
   {% include header.html %}
-    <div class="content blog blog-post">
-        <section class="cb">
-            <article>
-                <h1>{{ page.title }}</h1>
-                <div class="blog-meta">
-                    <time>
-                        {{ page.date | date: "%B %e, %Y" }}
-                    </time>
-                    <span>posted by {{ page.author }}</span>
-                    <!-- <span class=""> in <strong>{{ page.categories | join '' }}</strong></span> -->
-                </div>
-                {{ content }}
-            </article>
-        </section>
+    <div>
+      <section class="post">
+        <article>
+          <div class="post-meta">
+            <h2>{{ page.title }}</h2>
+            <h4>By: {{ page.author }}</h4>
+            <h4>{{ page.date | date: "%B %e, %Y" }}</h4>
+          </div>
+
+          {{ content }}
+
+          <a href="/blog">Back to All Articles</a>
+        </article>
+      </section>
     </div>
     {% include footer.html %}

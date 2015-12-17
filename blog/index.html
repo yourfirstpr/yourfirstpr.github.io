@@ -1,30 +1,36 @@
 ---
-layout: default
+layout: layout-blog
 ---
 
-{% include header.html %}
+<div role='main' class="main">
+  {% for post in paginator.posts %}
+  <div class="post-list">
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-<div role='main' id="main">
-  {% for post in site.posts %}
-  <h2>
-    <a class="blog-post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
-  <div class="entry">
-      {{ post.content | truncatewords:30}}
+    <time datetime="{{ page.date | date: "%Y-%m-%d"  }}">
+      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    </time>
+
+    <p>By:{{ post.author }}</p>
+
+    <p>{{ post.content | truncatewords:50}}</p>
+
+    <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+
   </div>
-  <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-link-more">Read More</a>
+
   {% endfor %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{baseurl}}/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
+      <a href="{{baseurl}}/blog/page{{ paginator.previous_page }}">Previous</a>
     {% else %}
       <span class="previous">Previous</span>
     {% endif %}
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a href="{{baseurl}}/blog/page{{ paginator.next_page }}" class="next">Next</a>
+      <a href="{{baseurl}}/blog/page{{ paginator.next_page }}">Next</a>
     {% else %}
-      <span class="next ">Next</span>
+      <span>Next</span>
     {% endif %}
   </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: YFPR is Awesome
+title: And the Third Blog Post
 author: Brad Johnson
 ---
 
