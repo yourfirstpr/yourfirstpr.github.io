@@ -1,4 +1,15 @@
 # Site settings
 title: Your First Pull Request - Showcasing good starter issues
+description: >
+  Please add description for SEO
+
 baseurl: ""
 url: "http://yourfirstpr.github.io/"
+
+# default site author info
+author:
+  name: Charlotte
+  twitter: charlotteis
+
+# don't build repo only files
+exclude: ["README.md", "CODEOFCONDUCT.md"]
