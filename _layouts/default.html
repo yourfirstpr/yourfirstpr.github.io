@@ -9,7 +9,10 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  {{ content }}
+  {% include header.html %}
+  <div role='main' id="main">
+    {{ content }}
+  </div>
   {% include footer.html %}
 </body>
 </html>
