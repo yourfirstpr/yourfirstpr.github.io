@@ -1,4 +1,14 @@
 # Site settings
-title: Your First Pull Request - Showcasing good starter issues
+title: Your First Pull Request
+description: >
+  Your First PR helps you get started contributing to Open Source by showcasing great starter isuues on Github and elsewhere.
+
 baseurl: ""
 url: "http://yourfirstpr.github.io/"
+
+# default site author info
+author:
+  name: Your First PR
+
+# don't build repo only files
+exclude: ["README.md", "CODEOFCONDUCT.md"]
