@@ -1,0 +1,16 @@
+---
+layout: default
+title: Your First Pull Request - Blog
+---
+<ul class="blog-list">
+    {% for post in site.posts %}
+        <li class="blog-item">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3 class="blog-title">{{ post.title }}
+                <span class="blog-date">{{ post.date | date: "%d %B %Y" }}</span>
+                </h3>
+            </a>
+            <p class="blog-snippet"></p>
+        </li>
+    {% endfor %}
+</ul>

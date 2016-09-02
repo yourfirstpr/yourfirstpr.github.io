@@ -95,6 +95,14 @@ footer p {
     box-sizing: border-box;
 }
 
+/*  blog list styling */
+.blog-list {
+  list-style: none;
+}
+
+.blog-date {
+  font-size: .65em;
+}
 @media (min-width: 600px) {
     #main {
         margin: 0 auto;
