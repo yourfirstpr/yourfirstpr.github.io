@@ -96,12 +96,20 @@ footer p {
 }
 
 /*  blog list styling */
-.blog-list {
-  list-style: none;
+.posts_title {
+  text-indent: 1em;
 }
 
-.blog-date {
-  font-size: .65em;
+.posts_date {
+  font-size: .9em;
+  color: #9274af;
+}
+
+.posts_rule {
+  border: 0;
+  height: 1px;
+  width: 98%;
+  background-image: linear-gradient(to right, #b8a4cb, #9274af, #b8a4cb);
 }
 @media (min-width: 600px) {
     #main {
