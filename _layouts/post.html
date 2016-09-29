@@ -1,4 +1,8 @@
 ---
 layout: default
 ---
+<h2>{{ page.title }}</h2>
 {{ content }}
+<p class="post_credits">
+  Written by: {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} on {{ page.date | date: '%B %d, %Y' }}
+</p>

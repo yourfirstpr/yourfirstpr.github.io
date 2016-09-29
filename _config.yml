@@ -7,8 +7,8 @@ baseurl: ""
 url: "http://yourfirstpr.github.io/"
 
 # default site author info
-author:
-  name: Your First PR
+author: Charlotte Spencer
+name: Your First PR
 
 # don't build repo only files
 exclude: ["README.md", "CODEOFCONDUCT.md"]

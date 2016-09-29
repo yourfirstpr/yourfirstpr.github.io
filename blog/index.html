@@ -4,14 +4,14 @@ title: Your First Pull Request - Blog
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h2 class="posts_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>
-    <span class="posts_date">{{ post.date | date: '%B %d, %Y' }}</span>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post_credits">
+    {{ post.date | date: '%B %d, %Y' }}
   </p>
   <div class="content">
     {{ post.content }}
   </div>
-  <hr class="posts_rule" />
+  <hr class="post_rule" />
 {% endfor %}
 
 <!-- Pagination links -->

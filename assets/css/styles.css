@@ -96,16 +96,14 @@ footer p {
 }
 
 /*  blog list styling */
-.posts_title {
-  text-indent: 1em;
-}
 
-.posts_date {
+.post_credits {
   font-size: .9em;
+  text-indent: 1em;
   color: #9274af;
 }
 
-.posts_rule {
+.post_rule {
   border: 0;
   height: 1px;
   width: 98%;
