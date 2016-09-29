@@ -7,7 +7,7 @@ header {
     padding: 20px 0;
 }
 
-h1 {
+header > h1 {
     margin: 0;
     color: #FFF;
     text-align: center;
