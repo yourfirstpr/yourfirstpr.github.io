@@ -13,7 +13,9 @@ name: Your First PR
 # don't build repo only files
 exclude: ["README.md", "CODEOFCONDUCT.md"]
 
-# pagination
+# set permalinks to just /:title
+permalink: none
 
+# pagination
 paginate: 4
 paginate_path: "/blog/:num/"
