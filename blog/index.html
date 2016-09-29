@@ -9,7 +9,7 @@ title: Your First Pull Request - Blog
     {{ post.date | date: '%B %d, %Y' }}
   </p>
   <div class="content">
-    {{ post.content | truncatewords: 30 }}
+    {{ post.excerpt }}
   </div>
   <hr class="post_rule" />
 {% endfor %}
