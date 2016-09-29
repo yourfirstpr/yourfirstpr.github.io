@@ -2,6 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Header Block Styling */
+
 header {
     background: #9255CC;
     padding: 20px 0;
@@ -13,8 +15,6 @@ header > h1 {
     text-align: center;
     font-size: 2.5em;
 }
-
-/* Header Block Styling */
 
 header a, footer a {
     color: #FFF;
@@ -108,6 +108,22 @@ footer p {
   height: 1px;
   width: 98%;
   background-image: linear-gradient(to right, #b8a4cb, #9274af, #b8a4cb);
+}
+
+/* blog pagination */
+
+.pagination {
+  width: 96%;
+  height: 2em;
+  margin: auto;
+}
+
+.pagination .previous {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
 }
 @media (min-width: 600px) {
     #main {
