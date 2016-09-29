@@ -8,6 +8,7 @@ url: "http://yourfirstpr.github.io/"
 
 # default site author info
 author: Charlotte Spencer
+author-url: https://twitter.com/charlotteis
 name: Your First PR
 
 # don't build repo only files
