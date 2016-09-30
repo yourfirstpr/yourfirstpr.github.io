@@ -110,6 +110,11 @@ footer p {
   color: #9274af;
 }
 
+p.continue {
+  text-align: right;
+  padding-right: 2em;
+}
+
 /* blog pagination */
 
 .pagination {
