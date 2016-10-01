@@ -135,22 +135,23 @@ p.continue {
 
 pre, code {
   font-family: Monaco, Consolas, monospace;
-  font-size: 92%;
-  line-height: 140%;
-  white-space: pre;
   border-radius: 3px;
-  padding: .1em .2em;
   color: #363636;
+}
+
+code{
+  font-size: 82%;
+  border: 1px solid #c0bac5;
+  background-color: #d8cde2;
+  padding: .1em;
 }
 
 pre > code {
   display: block;
-  padding: .4em;
-}
-
-code {
-  border: 1px solid #c0bac5;
-  background-color: #d8cde2;
+  white-space: pre-wrap;
+  font-size: 94%;
+  line-height: 140%;
+  padding: .4em 1em;
 }
 
 @media (min-width: 600px) {
