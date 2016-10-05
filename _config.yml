@@ -1,14 +1,32 @@
-# Site settings
+## Site settings
+# title, shows up in browser title bar
 title: Your First Pull Request
-description: >
+# description shows up in site meta data, for search engines
+description: |
   Your First PR helps you get started contributing to Open Source by showcasing great starter issues on Github and elsewhere.
 
+# baseurl is used to format links in jekyll
 baseurl: ""
+# url is the sites full domain name
 url: "http://yourfirstpr.github.io/"
+# name is used in the page header
+name: Your First PR
 
-# default site author info
-author:
-  name: Your First PR
 
-# don't build repo only files
+## default site author info
+# author is the name below posts
+author: Charlotte Spencer
+# author-url links this name to another page, twitter etc
+author-url: https://twitter.com/charlotteis
+
+## this prevents jekyll from building pages that are not website pages, but repo only pages
 exclude: ["README.md", "CODEOFCONDUCT.md"]
+
+# set permalinks to just /:title
+permalink: none
+
+## pagination settings
+# set the total number of posts per page for the blog
+paginate: 4
+# have posts paged as: /blog/page2, /blog/page3 etc
+paginate_path: "/blog/:num/"

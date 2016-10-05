@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+{{ content }}
+<p class="post_credits">
+Written by: {% if page.author %}{% if page.author-url %}<a href="{{ page.author-url }}">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %}{% else %}<a href="{{ site.author-url }}">{{ site.author }}</a>{% endif %} on {{ page.date | date: '%B %d, %Y' }}
+</p>
