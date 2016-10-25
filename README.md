@@ -1,5 +1,6 @@
-# yourfirstpr.github.io
+![Header](http://i.imgur.com/TdTp52X.png)
 
+# yourfirstpr.github.io
 Welcome to the official repo for **Your First PR**!
 
 ## Configuring and running locally
