@@ -9,6 +9,8 @@ description: |
 baseurl: ""
 # url is the sites full domain name
 url: "http://yourfirstpr.github.io/"
+# nice and clean blog URLs
+permalink: "/blog/:title.html"
 # name is used in the page header
 name: Your First PR
 
@@ -21,9 +23,6 @@ author-url: https://twitter.com/charlotteis
 
 ## this prevents jekyll from building pages that are not website pages, but repo only pages
 exclude: ["README.md", "CODEOFCONDUCT.md"]
-
-# set permalinks to just /:title
-permalink: none
 
 ## pagination settings
 # set the total number of posts per page for the blog
