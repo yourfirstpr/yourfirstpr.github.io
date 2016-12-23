@@ -1,4 +1,4 @@
-![Header](http://i.imgur.com/TdTp52X.png)
+![Header](README_header.png)
 
 # yourfirstpr.github.io
 Welcome to the official repo for **Your First PR**!
