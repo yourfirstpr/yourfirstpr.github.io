@@ -1,12 +1,19 @@
+html, body {
+  height: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 35px;
 }
 
 #main {
-    padding: 20px 15px;
     font-size: 1.15em;
     color: $purple-3;
+    width: $page-width;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -66,8 +73,6 @@ pre > code {
 
 @media (min-width: 600px) {
     #main {
-        margin: 0 auto;
-        max-width: 1000px;
         box-sizing: border-box;
     }
 

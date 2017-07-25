@@ -4,9 +4,13 @@ footer {
     color: #FFF;
     font-size: 1em;
     position: absolute;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
+}
+
+footer, #main:after {
+    height: 75px;
 }
 
 footer a {
@@ -17,5 +21,9 @@ footer p {
     max-width: 1280px;
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: center;
+    width: $page-width;
+}
+
+footer a {
+  border-bottom: 2px solid $purple-3;
 }
