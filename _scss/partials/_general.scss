@@ -1,42 +1,43 @@
----
-
----
-
-@import "vendor/_all";
-@import "modules/_all";
-@import "partials/_base";
-
-
-/*  blog list styling */
-
-.post_credits {
-  font-size: .9em;
-  text-indent: 1em;
-  color: $post-credits-colour;
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
-p.continue {
-  text-align: right;
-  padding-right: 2em;
+#main {
+    padding: 20px 15px;
+    font-size: 1.15em;
 }
 
-/* blog pagination */
-
-.pagination {
-  width: 96%;
-  height: 2em;
-  margin: auto;
+a {
+    color: #9255CC;
+    text-decoration: none;
+    border-bottom: 1px solid #9255CC;
 }
 
-.pagination .previous {
-  float: left;
+a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000;
 }
 
-.pagination .next {
-  float: right;
+ul {
+    padding: 0 0 0 20px;
 }
 
-/* code snippet styling */
+li {
+    padding: 4px 0;
+}
+
+#headline {
+    font-size: 1.3em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 98%;
+  background-image: linear-gradient(to right, #d8cde2, #c0bac5, #d8cde2);
+}
+
+// code snippets
 
 pre, code {
   font-family: Monaco, Consolas, monospace;
@@ -58,6 +59,8 @@ pre > code {
   line-height: 140%;
   padding: .4em 1em;
 }
+
+// media queries
 
 @media (min-width: 600px) {
     #main {

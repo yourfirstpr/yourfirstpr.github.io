@@ -1,0 +1,42 @@
+header {
+    background: $purple;
+    padding: 20px 0;
+}
+
+header > h1 {
+    margin: 0;
+    color: #FFF;
+    font-family: "Nixie One" !important;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header a, footer a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    font-size: 1.2em;
+}
+
+#active {
+    border-bottom: 2px solid #FFF;
+}
+
+
+header a:hover, footer a:hover {
+    color: #000000;
+}
+
+header ul {
+    text-align: center;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px 0 0;
+}
+
+header li:last-of-type {
+    padding: 0;
+}
