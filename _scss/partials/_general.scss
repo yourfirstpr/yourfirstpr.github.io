@@ -1,14 +1,16 @@
 body {
     font-family: 'Raleway', sans-serif;
+    line-height: 35px;
 }
 
 #main {
     padding: 20px 15px;
     font-size: 1.15em;
+    color: $dark-purple;
 }
 
 a {
-    color: #9255CC;
+    color: $purple;
     text-decoration: none;
     border-bottom: 1px solid #9255CC;
 }
