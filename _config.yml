@@ -29,3 +29,8 @@ exclude: ["README.md", "CODEOFCONDUCT.md"]
 paginate: 4
 # have posts paged as: /blog/page2, /blog/page3 etc
 paginate_path: "/blog/:num/"
+
+# Assets
+# Specifying the directory to use @imports
+sass:
+  sass_dir: _scss
