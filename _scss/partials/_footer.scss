@@ -1,8 +1,12 @@
 footer {
     padding: 25px 0;
-    background: $purple;
+    background: $purple-3;
     color: #FFF;
     font-size: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer a {
