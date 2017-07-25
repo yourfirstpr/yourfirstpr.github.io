@@ -1,6 +1,6 @@
 header {
     background: $purple;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 header > h1 {
@@ -9,27 +9,39 @@ header > h1 {
     font-family: "Nixie One" !important;
     text-align: center;
     font-size: 2.5em;
+    line-height: 80px;
 }
 
 header a, footer a {
-    color: #FFF;
+    color: #FFF !important;
     text-decoration: none;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 2px solid $purple;
     font-size: 1.2em;
+    &:hover{
+        border-bottom: 2px solid #fff;
+    }
 }
 
 #active {
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
 }
 
+header a, footer a {
+    padding-bottom: 10px;
+    &:hover {
+        padding-bottom: 5px;
+    }
+}
 
-header a:hover, footer a:hover {
-    color: #000000;
+header a, footer a, header a:hover, footer a:hover {
+    transition: padding-bottom 0.2s ease-out;
 }
 
 header ul {
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 
 header li {

@@ -1,5 +1,6 @@
 $purple: #9255CC;
-$dark-purple: #483e50;
+$purple-2: darken($purple, 30%);
+$purple-3: desaturate($purple-2, 30%);
 $header-font-colour: #fff;
 $post-credits-colour: #9274af;
 $code-block-font-colour: #363636;

@@ -6,7 +6,7 @@ body {
 #main {
     padding: 20px 15px;
     font-size: 1.15em;
-    color: $dark-purple;
+    color: $purple-3;
 }
 
 a {
@@ -16,8 +16,8 @@ a {
 }
 
 a:hover {
-    color: #000000;
-    border-bottom: 1px solid #000;
+    color: $purple-2;
+    border-bottom: 1px solid $purple-2;
 }
 
 ul {
