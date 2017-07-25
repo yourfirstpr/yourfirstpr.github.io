@@ -16,7 +16,7 @@ body {
 /* Header Block Styling */
 
 header {
-    background: #9255CC;
+    background: $purple;
     padding: 20px 0;
 }
 
@@ -99,7 +99,7 @@ footer {
     margin: 0 auto;
     padding: 5px 15px;
 
-    background: #9255CC;
+    background: $purple;
     color: #FFF;
     font-size: 1em;
 }
@@ -119,7 +119,7 @@ footer p {
 .post_credits {
   font-size: .9em;
   text-indent: 1em;
-  color: #9274af;
+  color: $post-credits-colour;
 }
 
 p.continue {
@@ -148,13 +148,13 @@ p.continue {
 pre, code {
   font-family: Monaco, Consolas, monospace;
   border-radius: 3px;
-  color: #363636;
+  color: $code-block-font-colour;
 }
 
 code{
   font-size: 82%;
-  border: 1px solid #c0bac5;
-  background-color: #d8cde2;
+  border: 1px solid $code-block-border;
+  background-color: $code-block-background;
   padding: .1em;
 }
 
