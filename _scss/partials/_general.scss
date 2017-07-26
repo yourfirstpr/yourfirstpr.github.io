@@ -1,10 +1,10 @@
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 #wrapper {
-  min-height: 100%;
-  position: relative;
+    min-height: 100%;
+    position: relative;
 }
 
 body {
@@ -25,11 +25,10 @@ a {
     color: $purple;
     text-decoration: none;
     border-bottom: 1px solid #9255CC;
-}
-
-a:hover {
-    color: $purple-2;
-    border-bottom: 1px solid $purple-2;
+    &:hover {
+        color: $purple-2;
+        border-bottom: 1px solid $purple-2;
+    }
 }
 
 ul {
@@ -45,33 +44,33 @@ li {
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  width: 98%;
-  background-image: linear-gradient(to right, #d8cde2, #c0bac5, #d8cde2);
+    border: 0;
+    height: 1px;
+    width: 98%;
+    background-image: linear-gradient(to right, #d8cde2, #c0bac5, #d8cde2);
 }
 
 // code snippets
 
 pre, code {
-  font-family: Monaco, Consolas, monospace;
-  border-radius: 3px;
-  color: $code-block-font-colour;
+    font-family: Monaco, Consolas, monospace;
+    border-radius: 3px;
+    color: $code-block-font-colour;
 }
 
 code{
-  font-size: 82%;
-  border: 1px solid $code-block-border;
-  background-color: $code-block-background;
-  padding: .1em;
+    font-size: 82%;
+    border: 1px solid $code-block-border;
+    background-color: $code-block-background;
+    padding: .1em;
 }
 
 pre > code {
-  display: block;
-  white-space: pre-wrap;
-  font-size: 94%;
-  line-height: 140%;
-  padding: .4em 1em;
+    display: block;
+    white-space: pre-wrap;
+    font-size: 94%;
+    line-height: 140%;
+    padding: .4em 1em;
 }
 
 // media queries
@@ -80,7 +79,6 @@ pre > code {
     #main {
         box-sizing: border-box;
     }
-
     ul {
         padding: 0 0 0 40px;
     }
@@ -88,6 +86,6 @@ pre > code {
 
 @media (max-width: 1520px) {
   #main {
-    width: $page-width-2;
+      width: $page-width-2;
   }
 }

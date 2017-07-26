@@ -2,59 +2,49 @@
     width: $page-width;
     padding: 30px;
     margin: 0 auto;
-}
-
-#header-wrapper:after {
-    content: "";
-    display: block;
-    height: 40px;
+    &:after {
+        content: "";
+        display: block;
+        height: 40px;
+    }
 }
 
 header {
     background: $purple;
     padding: 30px 0;
-}
-
-header h1 {
-    margin: 0;
-    color: #FFF;
-    font-family: "Nixie One" !important;
-    text-align: center;
-    font-size: 2.5em;
-    float: left;
-}
-
-header nav {
-    float: right;
-}
-
-header h1, header nav {
-    display: inline-block;
-}
-
-header nav a {
-  border-bottom: 2px solid $purple;
+    h1 {
+        margin: 0;
+        color: #FFF;
+        font-family: "Nixie One" !important;
+        text-align: center;
+        font-size: 2.5em;
+        float: left;
+    }
+    nav {
+        float: right;
+        a {
+            border-bottom: 2px solid $purple;
+        }
+    }
+    h1, nav {
+        display: inline-block;
+    }
 }
 
 header nav a, footer a {
     color: #FFF !important;
     text-decoration: none;
     font-size: 1.2em;
+    padding-bottom: 10px;
     &:hover{
         border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
     }
 }
 
 #active {
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
-}
-
-header nav a, footer a {
-    padding-bottom: 10px;
-    &:hover {
-        padding-bottom: 5px;
-    }
 }
 
 header nav a, footer a, header nav a:hover, footer a:hover {
@@ -65,48 +55,43 @@ header ul {
     text-align: center;
     padding: 0;
     margin: 0;
-}
-
-header li {
-    display: inline;
-    padding: 0 10px 0 0;
-}
-
-header li:last-of-type {
-    padding: 0;
+    li {
+        display: inline;
+        padding: 0 10px 0 0;
+        &:last-of-type {
+            padding: 0;
+        }
+    }
 }
 
 // media queries
 
 @media (max-width: 1520px) {
-  header h1, header nav {
-    float: none;
-    display: block;
-  }
-
-  header h1 {
-    line-height: 80px;
-  }
-
-  #header-wrapper {
-    padding: 0;
-    width: $page-width-2;
-  }
+    header h1, header nav {
+        float: none;
+        display: block;
+    }
+    header h1 {
+        line-height: 80px;
+    }
+    #header-wrapper {
+        padding: 0;
+        width: $page-width-2;
+    }
 }
 
 @media (max-width: 475px) {
-  header nav a, header footer a {
-    font-size: 1.5em;
-  }
-
-  header li {
-    display: block;
-    padding: 0 0 20px 0;
-  }
+    header nav a, header footer a {
+        font-size: 1.5em;
+    }
+    header li {
+        display: block;
+        padding: 0 0 20px 0;
+    }
 }
 
 @media (max-width: 450px) {
-  header h1 {
-    font-size: 2em;
-  }
+    header h1 {
+        font-size: 2em;
+    }
 }
