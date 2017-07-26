@@ -28,8 +28,16 @@ footer a {
     border-bottom: 2px solid $purple-3;
 }
 
+// media queries
+
 @media (max-width: 1520px) {
     footer p {
         width: $page-width-2;
+    }
+}
+
+@media (max-width: 450px( {
+    footer, #main:after {
+        height: 105px;
     }
 }
