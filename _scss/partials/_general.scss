@@ -2,6 +2,11 @@ html, body {
   height: 100%;
 }
 
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 35px;
@@ -13,7 +18,7 @@ body {
     width: $page-width;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 180px;
 }
 
 a {
@@ -79,4 +84,10 @@ pre > code {
     ul {
         padding: 0 0 0 40px;
     }
+}
+
+@media (max-width: 1520px) {
+  #main {
+    width: $page-width-2;
+  }
 }

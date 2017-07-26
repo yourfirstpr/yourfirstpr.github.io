@@ -10,10 +10,12 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  {% include header.html %}
-  <div role='main' id="main">
-    {{ content }}
+  <div id="wrapper">
+    {% include header.html %}
+    <div role='main' id="main">
+      {{ content }}
+    </div>
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 </html>

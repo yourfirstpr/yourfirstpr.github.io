@@ -75,3 +75,38 @@ header li {
 header li:last-of-type {
     padding: 0;
 }
+
+// media queries
+
+@media (max-width: 1520px) {
+  header h1, header nav {
+    float: none;
+    display: block;
+  }
+
+  header h1 {
+    line-height: 80px;
+  }
+
+  #header-wrapper {
+    padding: 0;
+    width: $page-width-2;
+  }
+}
+
+@media (max-width: 475px) {
+  header nav a, header footer a {
+    font-size: 1.5em;
+  }
+
+  header li {
+    display: block;
+    padding: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  header h1 {
+    font-size: 2em;
+  }
+}
