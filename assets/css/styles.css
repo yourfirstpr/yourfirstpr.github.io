@@ -23,6 +23,7 @@ header > h1 {
     font-family: "Nixie One" !important;
     text-align: center;
     font-size: 2.5em;
+    letter-spacing: 2px;
 }
 
 header a, footer a {
@@ -101,6 +102,7 @@ footer {
     background: var(--base-color);
     color: #FFF;
     font-size: 1em;
+    text-align: center;
 }
 
 footer a {
@@ -108,7 +110,7 @@ footer a {
 }
 
 footer p {
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 1280px;
     box-sizing: border-box;
 }
