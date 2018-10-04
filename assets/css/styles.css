@@ -3,6 +3,9 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 /* Header Block Styling */
@@ -55,6 +58,7 @@ header li:last-of-type {
 #main {
     padding: 20px 15px;
     font-size: 1.15em;
+    flex: 1;
 }
 
 a {
@@ -88,7 +92,6 @@ hr {
 }
 
 footer {
-    margin: 0 auto;
     padding: 5px 15px;
 
     background: #9255CC;
