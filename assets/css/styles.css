@@ -90,7 +90,7 @@ hr {
 footer {
     margin: 0 auto;
     padding: 5px 15px;
-
+    text-align: center;
     background: #9255CC;
     color: #FFF;
     font-size: 1em;
