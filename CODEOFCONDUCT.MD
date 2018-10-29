@@ -10,20 +10,20 @@ experience for everyone, regardless of level of experience, gender, gender
 identity and expression, sexual orientation, disability, personal appearance,  
 body size, race, ethnicity, age, religion, or nationality.
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behaviour by participants include:
 
-* The use of sexualized language or imagery  
-* Personal attacks  
-* Trolling or insulting/derogatory comments  
-* Public or private harassment  
+* The use of sexualised language or imagery
+* Personal attacks
+* Trolling or insulting/derogatory comments
+* Public or private harassment
 * Publishing other's private information, such as physical or electronic  
-  addresses, without explicit permission  
+	  addresses, without explicit permission
 * Other unethical or unprofessional conduct
 
 Project maintainers have the right and responsibility to remove, edit, or  
 reject comments, commits, code, wiki edits, issues, and other contributions  
 that are not aligned to this Code of Conduct, or to ban temporarily or  
-permanently any contributor for other behaviors that they deem inappropriate,  
+permanently any contributor for other behaviours that they deem inappropriate,  
 threatening, offensive, or harmful.
 
 By adopting this Code of Conduct, project maintainers commit themselves to  
@@ -35,16 +35,17 @@ This code of conduct applies both within project spaces and in public spaces
 when an individual is representing the project or its community.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be  
-reported by contacting a project maintainer at <mailto:charlottelaspencer@gmail.com>. All  
+reported by contacting a project maintainer at [charlottelaspencer@gmail.com][1]. All  
 complaints will be reviewed and investigated and will result in a response that  
 is deemed necessary and appropriate to the circumstances. Maintainers are  
 obligated to maintain confidentiality with regard to the reporter of an  
 incident.  
 
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],  
+This Code of Conduct is adapted from the [Contributor Covenant][2],  
 version 1.3.0, available at
-[http://contributor-covenant.org/version/1/3/0/][version]
+[http://contributor-covenant.org/version/1/3/0/][3]
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/3/0/
+[1]:	mailto:charlottelaspencer@gmail.com
+[2]:	http://contributor-covenant.org
+[3]:	http://contributor-covenant.org/version/1/3/0/
