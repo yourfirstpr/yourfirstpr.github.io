@@ -24,7 +24,7 @@ GEM
     ffi (1.9.10)
     gemoji (2.1.0)
     github-pages (39)
-      RedCloth (= 4.2.9)
+      RedCloth (4.2.9)
       github-pages-health-check (~> 0.2)
       jekyll (= 2.4.0)
       jekyll-coffeescript (= 1.0.1)
