@@ -1,37 +1,37 @@
 ![Header](README_header.png)
 
-## Configuring and running locally
+## Configurando e executando localmente
 
-If you're interested in running **Your First PR** locally, please note that this project uses [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) is a blog-aware static site generator written in Ruby, distributed under an Open Source license.
+Se você estiver interessado em executar **Your First PR** localmente, observe que este projeto usa [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) é um gerador de site estático, com suporte para blogs, escrito em Ruby, distribuído sob uma licença Open Source.
 
-The first step is to clone this repo and go into the folder:
+O primeiro passo é clonar este repositório e ir para a pasta:
 
 ```
 git clone https://github.com/yourfirstpr/yourfirstpr.github.io.git
 cd yourfirstpr.github.io
 ```
 
-Next, install the dependencies with the Bundler:
+Em seguida, instale as dependências com o Bundler:
 
 ```
 bundle
 ```
 
-If you haven't got Bundler installed, run the following Ruby command:
+Se você não tiver o Bundler instalado, execute o seguinte comando Ruby:
 
 ```
 gem install bundler
 ```
 
-You can now run Jekyll locally, using the following command:
+Agora você pode executar o Jekyll localmente, usando o seguinte comando:
 
 ```
 bundle exec jekyll serve
 ```
 
-That's it – you're now ready to go! Your local site will be available at `http://localhost:4000`.
+É isso aí - agora você está pronto para ir! Seu site local estará disponível em `http://localhost:4000`.
 
-If you want to use another port, you can provide the `-P` option, like this:
+Se você quiser usar outra porta, você pode fornecer a opção `-P`, assim:
 
 ```
 bundle exec jekyll serve -P 4242
