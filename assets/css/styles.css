@@ -31,6 +31,9 @@ header a, footer a {
     border-bottom: 2px solid #FFF;
 }
 
+footer p {
+   text-align: center;
+}
 
 header a:hover, footer a:hover {
     color: #000000;
