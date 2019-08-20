@@ -94,6 +94,8 @@ footer {
     background: #9255CC;
     color: #FFF;
     font-size: 1em;
+    display: flex;
+    text-align: center;
 }
 
 footer a {
