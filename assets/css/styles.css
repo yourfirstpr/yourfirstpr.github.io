@@ -106,6 +106,10 @@ footer p {
     box-sizing: border-box;
 }
 
+#footer-content {
+    text-align: center;
+}
+
 /*  blog list styling */
 
 .post_credits {
