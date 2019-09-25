@@ -1,0 +1,30 @@
+---
+layout: default
+title: Your First Pull Request - Blog
+---
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="post_credits">
+      {{ post.date | date: '%B %d, %Y' }}
+    </p>
+    <div class="content">
+      {{ post.excerpt }}
+      <p class="continue">
+      <a href="{{ post.url }}" alt="Click to continue reading.">Continue Reading</a>
+        </p>
+    </div>
+  </div>
+  <hr />
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% endif %}
+</div>

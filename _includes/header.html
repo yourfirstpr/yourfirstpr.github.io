@@ -1,0 +1,10 @@
+<header role='banner'>
+  <h1>Your First PR</h1>
+  <nav role='navigation'>
+      <ul>
+        <li><a href='{{ site.baseurl }}/' {% if page.url == '/index.html' %}id="active"{% endif %}>Home</a></li>
+        <li><a href="{{site.baseurl }}/blog" {% if page.url contains '/blog/' %}id='active'{% endif %}>Blog</a></li>
+        <li><a href='{{ site.baseurl }}/coc.html' {% if page.url == '/coc.html' %}id="active"{% endif %}>Code of Conduct</a></li>
+      </ul>
+  </nav>
+</header>
