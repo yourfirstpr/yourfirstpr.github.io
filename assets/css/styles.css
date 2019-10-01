@@ -8,7 +8,7 @@ body {
 /* Header Block Styling */
 
 header {
-    background: #9255CC;
+    background: #ce06c7;
     padding: 20px 0;
 }
 
@@ -58,7 +58,7 @@ header li:last-of-type {
 }
 
 a {
-    color: #9255CC;
+    color: #ce06c7;
     text-decoration: none;
     border-bottom: 1px solid #9255CC;
 }
@@ -91,7 +91,7 @@ footer {
     margin: 0 auto;
     padding: 5px 15px;
 
-    background: #9255CC;
+    background: #ce06c7;
     color: #FFF;
     font-size: 1em;
 }
@@ -111,7 +111,7 @@ footer p {
 .post_credits {
   font-size: .9em;
   text-indent: 1em;
-  color: #9274af;
+  color: #ce06c7;
 }
 
 p.continue {
