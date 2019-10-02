@@ -3,6 +3,7 @@
 ## Configuring and running locally
 
 If you're interested in running **Your First PR** locally, please note that this project uses [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) is a blog-aware static site generator written in Ruby, distributed under an Open Source license.
+here is the commit message
 
 The first step is to clone this repo and go into the folder:
 
