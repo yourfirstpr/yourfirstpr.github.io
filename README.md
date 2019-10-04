@@ -8,7 +8,7 @@ The first step is to clone this repo and go into the folder:
 
 ```
 git clone https://github.com/yourfirstpr/yourfirstpr.github.io.git
-cd yourfirstpr.github.io
+cd yourfirstpr.github.io or (go to yourfirstpr.github.io directory)
 ```
 
 Next, install the dependencies with the Bundler:
