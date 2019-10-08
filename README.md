@@ -23,6 +23,11 @@ If you haven't got Bundler installed, run the following Ruby command:
 gem install bundler
 ```
 
+* Note if the jekyll is not installed, please install jekyll first with the following command
+    ```
+    gem install jekyll
+    ```
+
 You can now run Jekyll locally, using the following command:
 
 ```
