@@ -14,14 +14,14 @@ Please provide the following information where possible to help the pull request
 
 ## Involved Project Members :bust_in_silhouette:
 
-*Tag any GitHub usernames involved or directly responsible for reviewing the proposed changes. Append the `@` symbol before usernames.*
+*Tag any GitHub usernames involved and directly responsible for reviewing the proposed changes. Append the `@` symbol before usernames.*
 
 >e.g @Charlotteis
  
 ## An Explanation of Your Changes :speech_balloon:
 
-*Your explanation goes here!*
+*Your explanation *
 
 ## Any Screenshots of Your Changes :camera:
  
-*Your screenshots go here! Use Markdown Syntax to embed images.*
+*Your screenshots ! Use Markdown Syntax to embed images.*
