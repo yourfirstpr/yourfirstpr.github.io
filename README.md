@@ -36,3 +36,7 @@ If you want to use another port, you can provide the `-P` option, like this:
 ```
 bundle exec jekyll serve -P 4242
 ```
+
+## LICENSE
+
+[MIT](https://github.com/yourfirstpr/yourfirstpr.github.io/blob/master/LICENSE) © [2015 Your First PR](https://yourfirstpr.github.io)
