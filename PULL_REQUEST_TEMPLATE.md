@@ -20,7 +20,7 @@ Please provide the following information where possible to help the pull request
  
 ## An Explanation of Your Changes :speech_balloon:
 
-*Your explanation goes here!*
+*Your explanation goes here!!*
 
 ## Any Screenshots of Your Changes :camera:
  
