@@ -1,6 +1,6 @@
 ![Header](README_header.png)
 
-## Configuring and running locally
+## Configuring and running locally x2
 
 If you're interested in running **Your First PR** locally, please note that this project uses [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) is a blog-aware static site generator written in Ruby, distributed under an Open Source license.
 
