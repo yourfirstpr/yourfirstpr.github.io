@@ -17,9 +17,9 @@ name: Your First PR
 
 ## default site author info
 # author is the name below posts
-author: Charlotte Spencer
+author: James Spencer
 # author-url links this name to another page, twitter etc
-author-url: https://twitter.com/charlotteis
+author-url: https://twitter.com/varjmes
 
 ## this prevents jekyll from building pages that are not website pages, but repo only pages
 exclude: ["README.md", "CODEOFCONDUCT.md"]
