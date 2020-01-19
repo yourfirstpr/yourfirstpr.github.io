@@ -16,7 +16,7 @@ Please provide the following information where possible to help the pull request
 
 *Tag any GitHub usernames involved or directly responsible for reviewing the proposed changes. Append the `@` symbol before usernames.*
 
->e.g @Charlotteis
+>e.g @varjmes
  
 ## An Explanation of Your Changes :speech_balloon:
 
