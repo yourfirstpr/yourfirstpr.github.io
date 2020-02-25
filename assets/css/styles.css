@@ -169,3 +169,9 @@ pre > code {
         padding: 0 0 0 40px;
     }
 }
+
+ /* General Styles  */
+
+ .text-center{
+    text-align: center;
+ }
