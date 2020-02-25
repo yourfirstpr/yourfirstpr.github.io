@@ -57,15 +57,20 @@ header li:last-of-type {
     font-size: 1.15em;
 }
 
+p {
+    line-height: 1.5em;
+}
+
 a {
     color: #9255CC;
     text-decoration: none;
     border-bottom: 1px solid #9255CC;
+    transition: 0.3s;
 }
 
 a:hover {
-    color: #000000;
-    border-bottom: 1px solid #000;
+    color: #f409c9;
+    border-bottom: 1px solid #f409c9;
 }
 
 ul {
@@ -104,8 +109,16 @@ footer p {
     margin: 10px auto;
     max-width: 1280px;
     box-sizing: border-box;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.3em;
 }
 
+footer p span {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
 /*  blog list styling */
 
 .post_credits {
