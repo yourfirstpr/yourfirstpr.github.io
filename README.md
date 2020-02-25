@@ -17,7 +17,7 @@ Next, install the dependencies with the Bundler:
 bundle
 ```
 
-If you haven't got Bundler installed, run the following Ruby command:
+If you have not got Bundler installed, run the following Ruby command:
 
 ```
 gem install bundler
