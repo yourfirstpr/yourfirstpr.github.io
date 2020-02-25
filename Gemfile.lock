@@ -130,3 +130,6 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.10.6
+gem 'bundle-locker', '~> 0.0.5'
+gem install bundle-locker
+https://rubygems.org/gems/bundle-locker
