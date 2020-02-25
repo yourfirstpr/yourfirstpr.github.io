@@ -4,5 +4,7 @@ CONTRIBUTORS
 {% comment %}
 The body has to begin immediately after the start of the loop or extra newlines
 we don't want will be inserted.
-{% endcomment %}{% for contributor in site.github.contributors %}{{ contributor.login }} - {{ contributor.html_url }}
+{% endcomment %}
+{% for contributor in site.github.contributors %}
+{{ contributor.login }} - {{ contributor.html_url }}
 {% endfor %}
