@@ -1,0 +1,12 @@
+- page: index
+  title: Your First Pull Request | Showcasing Starter Issues 
+  description: Your First PR helps you get started contributing to Open Source by showcasing starter issues on GitHub and elsewhere.
+- page: blog
+  title: Blog | Your First Pull Request
+  description: Here we share news and updates about YFPR and guides on being an awesome open source contributor and maintainer.
+- page: new-blog
+  title: Writing Blog Posts for YFPR | Your First Pull Request
+  description: This post explains the basics of contributing to the YFPR blog.
+- page: coc
+  title: Code of Conduct | Your First Pull Request
+  description: All contributors and maintainers of this project are subject to our code of conduct.

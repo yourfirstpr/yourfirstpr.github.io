@@ -1,0 +1,13 @@
+{% case include.page %}
+  {% when 'index' %}
+    {% assign metas = (site.data.meta | where:"page","index") %}
+  {% when 'blog' %}
+    {% assign metas = (site.data.meta | where:"page","blog") %}
+  {% when 'coc' %}
+    {% assign metas = (site.data.meta | where:"page","coc") %}
+{% endcase %}
+
+{% for meta in metas %}
+<title>{{ meta.title }}</title>
+<meta name="description" content="{{ meta.description | strip_html | strip_newlines }}">
+{% endfor %}
