@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 35px;
+}
+
+#main {
+    font-size: 1.15em;
+    color: $purple-3;
+    width: $page-width;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 180px;
+}
+
+a {
+    color: $purple;
+    text-decoration: none;
+    border-bottom: 1px solid #9255CC;
+    &:hover {
+        color: $purple-2;
+        border-bottom: 1px solid $purple-2;
+    }
+}
+
+ul {
+    padding: 0 0 0 20px;
+}
+
+li {
+    padding: 4px 0;
+}
+
+#headline {
+    font-size: 1.3em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 98%;
+    background-image: linear-gradient(to right, #d8cde2, #c0bac5, #d8cde2);
+}
+
+// code snippets
+
+pre, code {
+    font-family: Monaco, Consolas, monospace;
+    border-radius: 3px;
+    color: $code-block-font-colour;
+}
+
+code{
+    font-size: 82%;
+    border: 1px solid $code-block-border;
+    background-color: $code-block-background;
+    padding: .1em;
+}
+
+pre > code {
+    display: block;
+    white-space: pre-wrap;
+    font-size: 94%;
+    line-height: 140%;
+    padding: .4em 1em;
+}
+
+// media queries
+
+@media (min-width: 600px) {
+    #main {
+        box-sizing: border-box;
+    }
+    ul {
+        padding: 0 0 0 40px;
+    }
+}
+
+@media (max-width: 1520px) {
+  #main {
+      width: $page-width-2;
+  }
+}
