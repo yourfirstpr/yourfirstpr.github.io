@@ -28,8 +28,7 @@ You can now run Jekyll locally, using the following command:
 ```
 bundle exec jekyll serve
 ```
-
-That's it – you're now ready to go! Your local site will be available at `http://localhost:4000`.
+            That's it – you're now ready to go! Your local site will be available at `http://localhost:4000`.
 
 If you want to use another port, you can provide the `-P` option, like this:
 
