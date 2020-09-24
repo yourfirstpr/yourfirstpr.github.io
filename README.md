@@ -6,26 +6,26 @@ If you're interested in running **Your First PR** locally, please note that this
 
 The first step is to clone this repo and go into the folder:
 
-```
+```bash
 git clone https://github.com/yourfirstpr/yourfirstpr.github.io.git
 cd yourfirstpr.github.io
 ```
 
 Next, install the dependencies with the Bundler:
 
-```
+```bash
 bundle
 ```
 
 If you haven't got Bundler installed, run the following Ruby command:
 
-```
+```bash
 gem install bundler
 ```
 
 You can now run Jekyll locally, using the following command:
 
-```
+```bash
 bundle exec jekyll serve
 ```
 
@@ -33,6 +33,6 @@ That's it – you're now ready to go! Your local site will be available at `http
 
 If you want to use another port, you can provide the `-P` option, like this:
 
-```
+```bash
 bundle exec jekyll serve -P 4242
 ```
