@@ -1,83 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Header Block Styling */
 
 header {
-    background: #9255CC;
-    padding: 20px 0;
+  background: #9255cc;
+  padding: 20px 0;
 }
 
 header > h1 {
-    margin: 0;
-    color: #FFF;
-    font-family: "Nixie One" !important;
-    text-align: center;
-    font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+  font-family: "Nixie One" !important;
+  text-align: center;
+  font-size: 2.5em;
 }
 
-header a, footer a {
-    color: #FFF;
-    text-decoration: none;
-    border-bottom: 1px solid #FFF;
-    font-size: 1.2em;
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+header a,
+footer a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1.2em;
 }
 
 #active {
-    border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #fff;
 }
 
-
-header a:hover, footer a:hover {
-    color: #000000;
+header a:hover,
+footer a:hover {
+  color: #000000;
 }
 
 header ul {
-    text-align: center;
-    padding: 0;
+  text-align: center;
+  padding: 0;
 }
 
 header li {
-    display: inline;
-    padding: 0 10px 0 0;
+  display: inline;
+  padding: 0 10px 0 0;
 }
 
 header li:last-of-type {
-    padding: 0;
+  padding: 0;
 }
 
 /* End Header Block Styling */
 
 #main {
-    padding: 20px 15px;
-    font-size: 1.15em;
+  padding: 20px 15px;
+  font-size: 1.15em;
 }
 
 a {
-    color: #9255CC;
-    text-decoration: none;
-    border-bottom: 1px solid #9255CC;
+  color: #9255cc;
+  text-decoration: none;
+  border-bottom: 1px solid #9255cc;
 }
 
 a:hover {
-    color: #000000;
-    border-bottom: 1px solid #000;
+  color: #000000;
+  border-bottom: 1px solid #000;
 }
 
 ul {
-    padding: 0 0 0 20px;
+  padding: 0 0 0 20px;
 }
 
 li {
-    padding: 4px 0;
+  padding: 4px 0;
 }
 
 #headline {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 hr {
@@ -88,28 +94,28 @@ hr {
 }
 
 footer {
-    margin: 0 auto;
-    padding: 5px 15px;
+  margin: 0 auto;
+  padding: 5px 15px;
 
-    background: #9255CC;
-    color: #FFF;
-    font-size: 1em;
+  background: #9255cc;
+  color: #fff;
+  font-size: 1em;
 }
 
 footer a {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 footer p {
-    margin: 10px auto;
-    max-width: 1280px;
-    box-sizing: border-box;
+  margin: 10px auto;
+  max-width: 1280px;
+  box-sizing: border-box;
 }
 
 /*  blog list styling */
 
 .post_credits {
-  font-size: .9em;
+  font-size: 0.9em;
   text-indent: 1em;
   color: #9274af;
 }
@@ -137,17 +143,18 @@ p.continue {
 
 /* code snippet styling */
 
-pre, code {
+pre,
+code {
   font-family: Monaco, Consolas, monospace;
   border-radius: 3px;
   color: #363636;
 }
 
-code{
+code {
   font-size: 82%;
   border: 1px solid #c0bac5;
   background-color: #d8cde2;
-  padding: .1em;
+  padding: 0.1em;
 }
 
 pre > code {
@@ -155,17 +162,17 @@ pre > code {
   white-space: pre-wrap;
   font-size: 94%;
   line-height: 140%;
-  padding: .4em 1em;
+  padding: 0.4em 1em;
 }
 
 @media (min-width: 600px) {
-    #main {
-        margin: 0 auto;
-        max-width: 1000px;
-        box-sizing: border-box;
-    }
+  #main {
+    margin: 0 auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+  }
 
-    ul {
-        padding: 0 0 0 40px;
-    }
+  ul {
+    padding: 0 0 0 40px;
+  }
 }
