@@ -2,7 +2,7 @@
 
 ## Configuring and running locally
 
-If you're interested in running **Your First PR** locally, please note that this project uses [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) is a blog-aware static site generator written in Ruby, distributed under an Open Source license.
+If you're interested in running **Your First PR** locally, please note that this project uses [Jekyll](https://jekyllrb.com/). [Jekyll](https://jekyllrb.com/) is a blog-aware static site generator written in Ruby, and is distributed under an Open Source license.
 
 The first step is to clone this repo and go into the folder:
 
@@ -17,13 +17,13 @@ Next, install the dependencies with the Bundler:
 bundle
 ```
 
-If you haven't got Bundler installed, run the following Ruby command:
+If you haven't got Bundler installed on your machine, run the following Ruby command:
 
 ```
 gem install bundler
 ```
 
-You can now run Jekyll locally, using the following command:
+You can now run Jekyll locally on machine, using the following command:
 
 ```
 bundle exec jekyll serve
