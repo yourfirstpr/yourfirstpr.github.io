@@ -4,7 +4,7 @@
 
 Thank you so much for opening a pull request! :smiley:
 
-Please provide the following information where possible to help the pull request reviewer merge your PR quicker!
+Please provide the following information which helps the pull request reviewer to merge your PR quicker!
 
 ## Relevant Project Issue Numbers :hash:
 
