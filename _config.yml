@@ -8,7 +8,7 @@ description: |
 # baseurl is used to format links in jekyll
 baseurl: ""
 # url is the sites full domain name
-url: "http://yourfirstpr.github.io/"
+url: "https://yourfirstpr.github.io/"
 # nice and clean blog URLs
 permalink: "/blog/:title.html"
 # name is used in the page header
