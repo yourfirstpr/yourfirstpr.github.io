@@ -22,7 +22,7 @@ author: James Spencer
 author-url: https://twitter.com/varjmes
 
 ## this prevents jekyll from building pages that are not website pages, but repo only pages
-exclude: ["README.md", "CODEOFCONDUCT.md"]
+exclude: ["*.md"]
 
 ## pagination settings
 # set the total number of posts per page for the blog
